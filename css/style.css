@@ -1,0 +1,93 @@
+/*///////// GLOBAL /////////*/
+
+/*///////// BACKGROUND /////////*/
+
+/*///////// MEDIA /////////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*///////// MEDIA /////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear:both;
+}
+
+/*///////// LAYOUT /////////*/
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 66%;
+}
+
+.col-2 {
+  float: left;
+  width: 50%;
+}
+
+.col-3 {
+  float: left;
+  width: 32%;
+}
+
+/*///////// HEADER /////////*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: #255,255,255,1;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-text {
+  text-align: left;
+}
+
+.header-clock {
+  text-align: right;
+}
+
+/*///////// NAVBAR /////////*/
+
+/*///////// FOOTER /////////*/
+
+footer {
+  text-align: center;
+  font-size: 0.75em;
+  padding: 10px;
+  background: #255,255,255;
+  border-top: 1px solid;
+  max-height: 3%;
+}
+
+/*///////// MAIN LAYOUT /////////*/
+
+.main-image {
+  display: block;
+
+}

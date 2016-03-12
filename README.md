@@ -1,1 +1,1 @@
-This will be a user-friendly website containing information on college football players who are eligible for the NFL draft.
+NFLDRAFTSOUCE.COM
